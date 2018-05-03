@@ -8,6 +8,7 @@ require("./api/fragment.js");
 require("./api/from-file.js");
 require("./api/from-outside.js");
 require("./api/from-url.js");
+require("./api/jsdom-errors.js");
 require("./api/methods.js");
 require("./api/options.js");
 require("./api/options-run-scripts.js");
@@ -75,6 +76,6 @@ require("./to-port-to-wpts/level2/style.js");
 require("./to-port-to-wpts/level3/textContent.js");
 require("./to-port-to-wpts/level3/xpath.js");
 
-require("./web-platform-tests/to-upstream.js");
-// keep this one last so that you can cancel the test run early
-require("./web-platform-tests/index.js");
+require("./web-platform-tests/run-tuwpts.js");
+// Keep this one last so that you can cancel the test run early.
+require("./web-platform-tests/run-wpts.js");

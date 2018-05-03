@@ -2,9 +2,525 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9352744f-2d2f-41c1-8070-3fc0f1e18506" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jsdom/living/xmlhttprequest.js" afterPath="$PROJECT_DIR$/lib/jsdom/living/xmlhttprequest.js" />
+      <change afterPath="$PROJECT_DIR$/benchmark/dom/inner-html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/browser/parse5-adapter-parsing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/browser/parse5-adapter-serialization.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/aborting/AbortController-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/aborting/AbortController.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/aborting/AbortSignal-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/aborting/AbortSignal.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/attributes/NamedNodeMap-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/attributes/NamedNodeMap.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/constraint-validation/DefaultConstraintValidation-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/constraint-validation/ValidityState-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/constraint-validation/ValidityState.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/domparsing/DOMParser.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/events/CloseEvent-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/events/CloseEvent.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/events/CompositionEvent-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/events/CompositionEvent.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/events/Event.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/events/EventModifierMixin-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/events/EventTarget.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/events/FocusEvent.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/events/HashChangeEvent.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/events/KeyboardEvent.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/events/MessageEvent.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/events/MouseEvent.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/events/PopStateEvent.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/events/TouchEvent.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/events/UIEvent.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/events/WheelEvent-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/events/WheelEvent.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/file-api/Blob.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/file-api/File.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/file-api/FileList.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/file-api/FileReader.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/helpers/dates-and-times.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/helpers/json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/helpers/ordered-set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/helpers/svg/basic-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/hr-time/DOMHighResTimeStamp.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/hr-time/Performance-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/hr-time/Performance.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/navigator/Navigator.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/CharacterData.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/ChildNode.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/DOMStringMap.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/DOMTokenList-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/DOMTokenList.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/Document.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/DocumentFragment.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/Element.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/ElementCSSInlineStyle.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/ElementContentEditable.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/GlobalEventHandlers.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLAnchorElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLAndSVGElementShared-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLAreaElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLAudioElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLBRElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLBaseElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLBodyElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLButtonElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLCanvasElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLDListElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLDataElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLDataListElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLDialogElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLDirectoryElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLDivElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLEmbedElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFieldSetElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFontElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFormElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFrameElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFrameSetElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLHRElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLHeadElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLHeadingElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLHtmlElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLHyperlinkElementUtils.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLIFrameElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLImageElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLInputElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLLIElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLLabelElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLLegendElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLLinkElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLMapElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLMarqueeElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLMediaElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLMenuElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLMetaElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLMeterElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLModElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLOListElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLObjectElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLOptGroupElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLOptionElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLOptionsCollection.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLOutputElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLParagraphElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLParamElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLPreElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLProgressElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLQuoteElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLScriptElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLSelectElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLSourceElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLSpanElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLStyleElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableCaptionElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableCellElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableColElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableRowElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableSectionElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTemplateElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTextAreaElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTimeElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTitleElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTrackElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLUListElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLVideoElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/LinkStyle.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/Node.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/NonElementParentNode.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/ParentNode.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/SVGElement-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/SVGElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/SVGGraphicsElement-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/SVGGraphicsElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/SVGSVGElement-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/SVGSVGElement.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/SVGTests-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/SVGTests.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/WindowEventHandlers.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/svg/SVGAnimatedString-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/svg/SVGAnimatedString.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/svg/SVGListBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/svg/SVGNumber-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/svg/SVGNumber.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/svg/SVGStringList-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/svg/SVGStringList.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/websockets/WebSocket-impl-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/websockets/WebSocket-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/websockets/WebSocket.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/window/BarProp-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/window/BarProp.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/window/External.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/window/History.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/window/Location.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/window/Screen-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/window/Screen.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsdom/living/xhr/FormData.webidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/api/jsdom-errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/run-single-wpt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/run-tuwpts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/run-wpts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/start-wpt-server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-run.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/dom/nodes/Document-constructor-dont-upstream.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/dom/nodes/DocumentFragment-getElementById.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/dom/nodes/Node-cloneNode-document-with-doctype.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/dom/nodes/svg-template-querySelector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/domparsing/DOMParser-parseFromString-xml-CDATA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/domparsing/DOMParser-xml-character-entities.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/hr-time/performance-tojson-dont-upstream.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/hr-time/timeOrigin-dont-upstream.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/browsers/the-window-object/window-properties-dont-upstream.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/dom/historical-dont-upstream.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/editing/activation/click-event-properties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/semantics/document-metadata/the-style-element/non-parser-style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/semantics/document-metadata/the-style-element/sheet-with-disconnected-style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/semantics/document-metadata/the-style-element/sheet-with-empty-style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/semantics/document-metadata/the-style-element/with-spaces.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/semantics/embedded-content/the-img-element/remove-attribute-src.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/semantics/forms/the-input-element/file-value-setter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/semantics/forms/the-input-element/radio-click-events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/semantics/tabular-data/the-td-element/class-hierarchy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/semantics/tabular-data/the-th-element/class-hierarchy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/semantics/tabular-data/the-th-element/scope.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/webappapis/animation-frames/no-interference-timers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/svg/element-svg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/svg/element.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/svg/svganimatedstring.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/svg/svgnumber.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/svg/svgstringlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/uievents/getModifierState.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/tuwpt-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/wpt-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/wpt-manifest-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/web-platform-tests/wpt-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mailmap" beforeDir="false" afterPath="$PROJECT_DIR$/.mailmap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUTHORS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AUTHORS.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contributing.md" beforeDir="false" afterPath="$PROJECT_DIR$/Contributing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benchmark/document-suite.js" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark/document-suite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benchmark/dom/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark/dom/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benchmark/path-to-suites.js" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark/path-to-suites.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benchmark/runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark/runner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/browser/Window.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/browser/Window.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/browser/default-stylesheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/browser/default-stylesheet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/browser/documentAdapter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/browser/domtohtml.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/browser/domtohtml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/browser/htmltodom.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/browser/htmltodom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/browser/resource-loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/browser/resource-loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/level2/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/level2/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/attributes.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/attributes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/attributes/Attr-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/attributes/Attr-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/attributes/Attr.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/attributes/Attr.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/dom-token-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/domparsing/DOMParser-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/domparsing/DOMParser-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/domparsing/DOMParser.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/CustomEvent-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/events/CustomEvent-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/CustomEvent.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/events/CustomEvent.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/ErrorEvent-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/events/ErrorEvent-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/ErrorEvent.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/events/ErrorEvent.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/Event-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/events/Event-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/Event.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/EventTarget-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/events/EventTarget-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/EventTarget.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/FocusEvent-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/events/FocusEvent-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/FocusEvent.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/HashChangeEvent-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/events/HashChangeEvent-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/HashChangeEvent.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/KeyboardEvent-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/events/KeyboardEvent-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/KeyboardEvent.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/MessageEvent-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/events/MessageEvent-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/MessageEvent.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/MouseEvent-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/events/MouseEvent-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/MouseEvent.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/PopStateEvent-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/events/PopStateEvent-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/PopStateEvent.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/ProgressEvent-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/events/ProgressEvent-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/ProgressEvent.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/events/ProgressEvent.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/TouchEvent-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/events/TouchEvent-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/TouchEvent.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/UIEvent-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/events/UIEvent-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/events/UIEvent.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/file-api/Blob-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/file-api/Blob-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/file-api/Blob.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/file-api/File.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/file-api/FileList.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/file-api/FileReader-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/file-api/FileReader-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/file-api/FileReader.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/helpers/create-event-accessor.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/helpers/create-event-accessor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/helpers/focusing.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/helpers/focusing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/helpers/form-controls.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/helpers/form-controls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/helpers/internal-constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/helpers/internal-constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/helpers/ordered-set-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/helpers/runtime-script-errors.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/helpers/runtime-script-errors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/helpers/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/helpers/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/helpers/strings.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/helpers/strings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/helpers/stylesheets.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/helpers/stylesheets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/helpers/text.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/helpers/text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/helpers/traversal.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/helpers/traversal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/helpers/validate-names.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/helpers/validate-names.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/named-properties-window.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/named-properties-window.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/navigator/Navigator-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/navigator/Navigator-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/navigator/Navigator.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/node-filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/node-filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/CDATASection.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/CDATASection.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/CharacterData-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/CharacterData-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/CharacterData.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/ChildNode-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/ChildNode-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/ChildNode.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/Comment.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/Comment.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/DOMImplementation-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/DOMImplementation-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/DOMImplementation.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/DOMImplementation.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/DOMStringMap.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/Document-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/Document-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/Document.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/DocumentFragment-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/DocumentFragment-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/DocumentFragment.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/DocumentType-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/DocumentType-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/DocumentType.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/DocumentType.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/Element-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/Element-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/Element.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/ElementCSSInlineStyle-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/ElementCSSInlineStyle-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/ElementCSSInlineStyle.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/ElementContentEditable.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/GlobalEventHandlers-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/GlobalEventHandlers-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/GlobalEventHandlers.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLAnchorElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLAnchorElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLAnchorElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLAppletElement-impl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLAppletElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLAreaElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLAreaElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLAreaElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLAudioElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLBRElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLBaseElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLBaseElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLBaseElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLBodyElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLBodyElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLBodyElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLButtonElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLButtonElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLButtonElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLCanvasElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLCanvasElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLCanvasElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLCollection.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLCollection.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLDListElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLDataElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLDataListElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLDetailsElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLDetailsElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLDetailsElement.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLDetailsElement.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLDialogElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLDirectoryElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLDivElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLEmbedElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLEmbedElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLEmbedElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFieldSetElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFieldSetElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFieldSetElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFontElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFormElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFormElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFormElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFrameElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFrameElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFrameElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFrameSetElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFrameSetElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLFrameSetElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLHRElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLHeadElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLHeadingElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLHtmlElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLHyperlinkElementUtils-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLHyperlinkElementUtils-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLHyperlinkElementUtils.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLIFrameElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLImageElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLImageElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLImageElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLInputElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLInputElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLInputElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLLIElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLLabelElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLLabelElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLLabelElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLLegendElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLLegendElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLLegendElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLLinkElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLLinkElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLLinkElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLMapElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLMarqueeElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLMediaElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLMediaElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLMediaElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLMenuElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLMetaElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLMeterElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLMeterElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLMeterElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLModElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLModElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLModElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLOListElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLObjectElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLObjectElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLObjectElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLOptGroupElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLOptionElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLOptionElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLOptionElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLOptionsCollection-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLOptionsCollection-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLOptionsCollection.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLOutputElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLOutputElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLOutputElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLParagraphElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLParamElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLPictureElement.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLPictureElement.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLPreElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLProgressElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLQuoteElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLQuoteElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLQuoteElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLScriptElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLScriptElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLScriptElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLSelectElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLSelectElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLSelectElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLSourceElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLSourceElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLSourceElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLSpanElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLStyleElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLStyleElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLStyleElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableCaptionElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableCellElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableCellElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableCellElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableColElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableDataCellElement-impl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableDataCellElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableHeaderCellElement-impl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableHeaderCellElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableRowElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableRowElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableRowElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableSectionElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableSectionElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTableSectionElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTemplateElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTemplateElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTemplateElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTextAreaElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTextAreaElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTextAreaElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTimeElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTitleElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTrackElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTrackElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLTrackElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLUListElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLUnknownElement.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLUnknownElement.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLVideoElement-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLVideoElement-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/HTMLVideoElement.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/LinkStyle-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/LinkStyle-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/LinkStyle.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/Node-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/Node-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/Node.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/NodeList.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/NodeList.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/NonDocumentTypeChildNode-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/NonDocumentTypeChildNode-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/NonDocumentTypeChildNode.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/NonDocumentTypeChildNode.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/NonElementParentNode-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/NonElementParentNode-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/NonElementParentNode.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/ParentNode-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/ParentNode-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/ParentNode.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/ProcessingInstruction.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/ProcessingInstruction.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/Text-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/Text-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/Text.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/Text.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/WindowEventHandlers-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/WindowEventHandlers-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/WindowEventHandlers.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/nodes/XMLDocument.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/nodes/XMLDocument.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/post-message.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/post-message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/register-elements.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/register-elements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/traversal/NodeIterator-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/traversal/NodeIterator-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/traversal/NodeIterator.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/traversal/NodeIterator.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/traversal/TreeWalker.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/traversal/TreeWalker.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/window/External.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/window/History-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/window/History-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/window/History.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/window/Location-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/window/Location-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/window/Location.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/window/SessionHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/window/SessionHistory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/xhr-sync-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/xhr-sync-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/xhr-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/xhr-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/xhr/FormData-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/xhr/FormData-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/xhr/FormData.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/xhr/XMLHttpRequestEventTarget.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/xhr/XMLHttpRequestEventTarget.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/xhr/XMLHttpRequestUpload-impl.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/xhr/XMLHttpRequestUpload-impl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/xhr/XMLHttpRequestUpload.idl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/xhr/XMLHttpRequestUpload.webidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/living/xmlhttprequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/living/xmlhttprequest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/named-properties-tracker.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/named-properties-tracker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/virtual-console.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/virtual-console.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsdom/vm-shim.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsdom/vm-shim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/old-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/old-api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/webidl/convert.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/webidl/convert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/test/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/api/basics.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/basics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/api/encoding.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/encoding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/api/from-outside.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/from-outside.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/api/methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/methods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/api/options-run-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/options-run-scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/api/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/api/resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/resources.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/chai-helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/chai-helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/karma-webworker.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/karma-webworker.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/old-api/cancel-requests.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/old-api/cancel-requests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/old-api/cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/old-api/cookie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/old-api/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/old-api/env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/old-api/inside-worker-smoke-tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/old-api/inside-worker-smoke-tests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/old-api/keep-alive-connections.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/old-api/keep-alive-connections.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/old-api/resource-loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/old-api/resource-loading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/old-api/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/old-api/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/class-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/class-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/compare-document-position.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/compare-document-position.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/cors.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/cors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/current-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/current-script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/dom-implementation.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/dom-implementation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/frame.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/frame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/htmlcanvaselement.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/htmlcanvaselement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/htmlelement.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/htmlelement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/htmlimageelement.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/htmlimageelement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/htmlinputelement.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/htmlinputelement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/inline-event-handlers.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/inline-event-handlers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/jsonp.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/jsonp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/level2/events.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/level2/events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/level2/html.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/level2/html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/level2/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/level2/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/misc.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/misc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/misc2.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/misc2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/namespaces.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/namespaces.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/node-contains.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/node-contains.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/node-iterator.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/node-iterator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/node-owner-document.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/node-owner-document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/node-parent-element.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/node-parent-element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/on-error.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/on-error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/parsing.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/parsing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/post-message.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/post-message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/serialization.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/serialization.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/to-port-to-wpts/xhr-requires-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/to-port-to-wpts/xhr-requires-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web-platform-tests/config.jsdom.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web-platform-tests/create-jsdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web-platform-tests/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web-platform-tests/run-to-upstream-web-platform-test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web-platform-tests/run-web-platform-test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web-platform-tests/tests" beforeDir="false" afterPath="$PROJECT_DIR$/test/web-platform-tests/tests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web-platform-tests/to-upstream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/FileAPI/file/File-lastModified.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/FileAPI/file/File-lastModified.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/XMLHttpRequest/send-authentication-cors-post.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/dom/attributes-are-not-nodes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/dom/attributes-are-not-nodes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/dom/nodes/ParentNode-querySelector-escapes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/dom/nodes/ParentNode-querySelector-escapes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/named-access-on-window/only-name.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/named-access-on-window/only-name.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/obsolete/requirements-for-implementations/other-elements-attributes-and-apis/applets.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/semantics/forms/the-option-element/option-ask-for-a-reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/semantics/forms/the-option-element/option-ask-for-a-reset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/semantics/scripting-1/the-script-element/script-languages-dont-upstream.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/web-platform-tests/to-upstream/html/semantics/scripting-1/the-script-element/script-languages-dont-upstream.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,13 +530,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="xmlhttprequest.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/jsdom/living/xmlhttprequest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="836" column="9" lean-forward="false" selection-start-line="836" selection-start-column="9" selection-end-line="836" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="-716">
+              <caret line="700" column="13" lean-forward="true" selection-start-line="700" selection-start-column="13" selection-end-line="700" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -31,15 +546,11 @@
     <findStrings>
       <find>cors</find>
       <find>validCORSHeaders</find>
+      <find>CORS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,10 +574,16 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="89" />
-    <option name="y" value="80" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="1346" />
   </component>
@@ -126,22 +643,11 @@
     </entry>
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,20 +677,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
-    <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -200,28 +705,12 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -231,30 +720,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -267,21 +739,31 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -290,43 +772,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506521716162</updated>
-      <workItem from="1506521717610" duration="354000" />
+      <workItem from="1506521717610" duration="1581000" />
+      <workItem from="1525357850284" duration="246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354000" />
+    <option name="totallyTimeSpent" value="1827000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="89" y="80" width="1280" height="1346" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="1346" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32980457" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32952693" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,16 +820,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib/jsdom/living/xmlhttprequest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="836" column="9" lean-forward="false" selection-start-line="836" selection-start-column="9" selection-end-line="836" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="10245">
+          <caret line="683" column="15" selection-start-line="683" selection-start-column="15" selection-end-line="683" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jsdom/living/xmlhttprequest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-716">
+          <caret line="700" column="13" lean-forward="true" selection-start-line="700" selection-start-column="13" selection-end-line="700" selection-end-column="13" />
         </state>
       </provider>
     </entry>

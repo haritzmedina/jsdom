@@ -41,6 +41,9 @@ module.exports = config => {
       debug: true,
       configure(bundle) {
         bundle.ignore("fs");
+        // TODO: support WPTs in browsers.
+        bundle.ignore("./test/web-platform-tests/run-wpts.js");
+        bundle.ignore("./test/web-platform-tests/run-tuwpts.js");
       }
     },
 
@@ -61,9 +64,7 @@ module.exports = config => {
         // "karma-browserify" is now no longer used. Instead we use the `client.mochaWebWorker.evaluate.beforeRun`
         // setting, which "karma-mocha-webworker" passes to eval() just before starting the mocha run.
 
-        pattern: [
-          "*browserify"
-        ],
+        pattern: ["*browserify"],
         evaluate: {
           beforeRun:
             "require(" +

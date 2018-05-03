@@ -3,6 +3,8 @@ Adrian Lang <mail@adrianlang.de>
 Adrian Makowski <adrian.makowski@gmail.com>
 airportyh <airportyh@gmail.com>
 alec <alec.hulce@gmail.com>
+Aleksei Tsikov <alexey.tsikov@gmail.com>
+Alex Coles <alex@alexbcoles.com>
 Alex Pearson <alex@alexpear.com>
 Alex Rattray <rattray.alex@gmail.com>
 Alexander Flatter <flatter@gmail.com>
@@ -17,12 +19,15 @@ Andrew Patton <andrew@acusti.ca>
 Andrew Plummer <plummer.andrew@gmail.com>
 Andrew Smith <andy@robotlovesyou.com>
 Andy VanWagoner <andy@instructure.com>
+Anton Popov <Anton.Popov@infowatch.com>
 Anton Yefremov <anton.yefremov@gmail.com>
 antonj <anton.johansson@gmail.com>
 Aria Stewart <aredridel@nbtsc.org>
 Arrix <arrixzhou@gmail.com>
+Aryan Arora <aryanarora278@gmail.com>
 Avery Fay <avery@mixpanel.com>
 Avi Deitcher <avi@deitcher.net>
+Behind The Math <aryehb412@gmail.com>
 Brandon Bethke <brandon.bethke@neudesic.com>
 Brandon Paton <brandon@localizejs.com>
 Brian Donovan <donovan@squareup.com>
@@ -36,6 +41,7 @@ Christof Marti <chrmarti@microsoft.com>
 Christoph Pojer <christoph.pojer@gmail.com>
 Christophe Coevoet <stof@notk.org>
 cjroebuck <tophtfc@gmail.com>
+Cyril Auburtin <cyril.auburtin@gmail.com>
 daishi <daishi@axlight.com>
 Damian Janowski <damian.janowski@gmail.com>
 Dan Lidral-Porter <dan@luckysort.com>
@@ -72,6 +78,7 @@ Francis Saul <francis@mummybot.com>
 Francisco Requena <frarees@gmail.com>
 Frederic Hemberger <mail@frederic-hemberger.de>
 FrozenCow <frozencow@gmail.com>
+Futtetennista <futtetennista@gmail.com>
 Gary Court <gary.court@gmail.com>
 Gianluca Guarini <gianluca.guarini@gmail.com>
 Godmar Back <godmar@gmail.com>
@@ -120,12 +127,15 @@ Jürg Lehni <juerg@scratchdisk.com>
 justinmchase <justin.m.chase@gmail.com>
 kangax <kangax@gmail.com>
 Karl Horky <karl.horky@gmail.com>
+Karl Norling <karlnorling@users.noreply.github.com>
 Karuna Sagar <karunasagark@gmail.com>
 Kasper Isager <kasperisager@gmail.com>
 kblomquist <kblomquist@groupon.com>
 Ken "Elf" Mathieu Sternberg <elf@pendorwright.com>
 Kenneth Powers <ken@kenpowers.net>
 King Koopa <bbyholm@abo.fi>
+kontomondo <kontomondo@gmail.com>
+Koushik Challa <challakoushik@gmail.com>
 Kuriyama hibiya <kuriyama@hibiya.moe>
 Kyle <halldirector@gmail.com>
 Kyle McFarland <kyle.mcfarland@formidablelabs.com>
@@ -136,6 +146,7 @@ Lon Ingram <lawnsea@gmail.com>
 Louis-Dominique Dubeau <ldd@lddubeau.com>
 lovebear <hheennrryy@gmail.com>
 Ludovico Fischer <livrerie@gmail.com>
+Luis Silva <fetzpt@gmail.com>
 Lukas Bünger <lukas.buenger@fixxpunkt.ch>
 makana <mamas-albtraum@web.de>
 Manuel Lopez <jmlopez.rod@gmail.com>
@@ -154,19 +165,22 @@ Michael Fleet <mofosho@fantasticmf.com>
 Michael Hayes <michael.hayes@urbanairship.com>
 Michael Mior <michael.mior@gmail.com>
 Michael Orchard <morchard@scottlogic.co.uk>
-Michał Gołębiowski <m.goleb@gmail.com>
+Michał Gołębiowski-Owczarek <m.goleb@gmail.com>
 Michał Wadas <michalwadas@gmail.com>
 Mike Bostock <mbostock@gmail.com>
+Mike Schreifels <mike@schreifels.org>
 Mitar <mitar.git@tnode.com>
 Nao Iizuka <iizuka@kyu-mu.net>
 Nick Oliver <github@pixnbits.org>
 Nick Stenning <nick@whiteink.com>
+Nicklas Gummesson <nicklas.gummesson@gmail.com>
 Nicolas HENRY <icewil@gmail.com>
 Nicolas LaCasse <nicolas.lacasse@gmail.com>
 Nik Nyby <niknyby@gmail.com>
 Ojek <ojek25@gmail.com>
 Olivier El Mekki <olivier@el-mekki.com>
 Ondřej Žára <ondras@zarovi.cz>
+Onur Yıldırım <onury@users.noreply.github.com>
 Paul O’Shannessy <paul@oshannessy.com>
 peller <github@peller.org>
 Pepijn Verlaan <pepijnverlaan@yahoo.com>
@@ -177,7 +191,9 @@ Phil Dokas <pdokas@organic.com>
 Rainer Eli <claushellsing@gmail.com>
 Ralph Holzmann <ralphholzmann@gmail.com>
 Ra'Shaun Stovall <help@sneakyhead.com>
+Ra'Shaun Stovall <rashaunstovall@gmail.com>
 Remy Loubradou <remyloubradou@gmail.com>
+reviewher <24845478+reviewher@users.noreply.github.com>
 Rich Harris <richard.a.harris@gmail.com>
 Ricky Chien <ricky060709@gmail.com>
 Ricordisamoa <ricordisamoa@openmailbox.org>
@@ -196,12 +212,14 @@ Sam Ruby <rubys@intertwingly.net>
 Sammy Jelin <sjelin@gmail.com>
 Samori Gorse <samorigorse@gmail.com>
 saucy <zekewarren@gmail.com>
+Scott Albertine <scott.albertine@gmail.com>
 Scott Ashton <scottmortonashton@gmail.com>
 Sean Jacke <seanineurope@gmail.com>
 Sebastian Mayr <github@smayr.name>
 Sebastian McKenzie <sebmck@gmail.com>
 Sergei Ianovich <s@asutp.io>
 Shimon Doodkin <helpmepro1@gmail.com>
+Simen Bekkhus <sbekkhus91@gmail.com>
 sonnym <michaud.sonny@gmail.com>
 Soufiane Ghzal <sghzal@gmail.com>
 sporchia <print@blindchaos.net>
@@ -231,5 +249,6 @@ William Cunningham <w.a.cunningham.ii@gmail.com>
 Xavi <xavi.rmz@gmail.com>
 Yonathan <yonathan@gmail.com>
 Yun Cui <ycui@microstrategy.com>
+Yunlei Liu <yunlei.liu@appfolio.com>
 Zach Smith <zach@amicushq.com>
 Zirro <code@zirro.se>
